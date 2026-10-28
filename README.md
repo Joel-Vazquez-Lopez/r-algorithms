@@ -20,6 +20,14 @@ The final controller achieved a mean score of **171.79 turns over 500 simulation
 
 [View project](delivery-man/)
 
----
+### Where's Croc — Hidden Markov Model and BFS Search
 
-More projects will be added as they are completed.
+A group project building an autonomous crocodile-tracking agent in R. The agent combines a Hidden Markov Model-style belief update with sensor and tourist observations to estimate the crocodile's location, then uses breadth-first search to navigate a network of waterholes.
+
+The notebook includes an example simulation and a test call. Running it requires the external `WheresCroc` R package (version 1.2.2), which is not bundled in this repository.
+
+**Topics:** Hidden Markov Models · Bayesian filtering · Gaussian likelihoods · graph traversal · BFS · shortest paths · probabilistic decision-making
+
+**Language:** R
+
+[View project](wheres-croc/)
